@@ -6,5 +6,5 @@ for(var i=0;i<100;i++){
 }
 
 document.getElementById('form').onsubmit=function(){
-   window.alert(document.getElementById('form').word.value&'されました');  
+   window.alert(document.getElementById('form').word.value&'押されました');  
 };
