@@ -1,5 +1,5 @@
 
-for(var i=0;i<100;1++){
+for(var i=0;i<100;i++){
    var=li document.createElement('li');
   li.textContent=i;
   document.getElementById('FiBuzz').appendChild(li);
