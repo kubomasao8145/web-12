@@ -3,7 +3,12 @@ for(var i=0;i<100;i++){
    var li=document.createElement('li');
   li.textContent=i;
    if(i%3==0){
-      li.textContent='Fizz';
+      li.textContent='Fizz'; 
+   
+   }
+   else if(i%5==0)
+   {
+      li.textContent='Buzz'; 
    }
   document.getElementById('FiBuzz').appendChild(li);
 }
