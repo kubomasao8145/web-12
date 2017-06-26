@@ -4,3 +4,7 @@ for(var i=0;i<100;1++){
   li.textContent=i;
   document.getElementById('FiBuzz').appendChild(li);
 }
+
+document.getElementById('form').onsubmit=function(){
+   window.alert('押されました');  
+};
