@@ -2,6 +2,9 @@
 for(var i=0;i<100;i++){
    var li=document.createElement('li');
   li.textContent=i;
+   if(i%3==0){
+      li.textContent='Fizz';
+   }
   document.getElementById('FiBuzz').appendChild(li);
 }
 
