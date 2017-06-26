@@ -10,7 +10,7 @@ for(var i=1;i<100;i++){
    {
       li.textContent='Buzz'; 
    }
-   else if(i%5&&i%3==0)
+   else if(i%15==0)
    {
      li.textContent='FizzBuzz'; 
    }
